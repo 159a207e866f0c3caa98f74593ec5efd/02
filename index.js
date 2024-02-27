@@ -224,6 +224,12 @@ const draw = () => {
       continue;
     }
 
+    if (ii <= 0) {
+      alert("Сила тока должна быть положительной");
+      is_drawing = false;
+      return;
+    }
+
     is.push({ x, y: -y, i: ii, d });
   }
   if (is.length === 0) {
