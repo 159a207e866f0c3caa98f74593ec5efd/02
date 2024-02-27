@@ -62,7 +62,7 @@ body {
 }
 
 .item-label {
-  width: 20px;
+  width: 40px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -88,4 +88,9 @@ body {
 
 .btn {
   padding: 5px;
+}
+
+.item-top-right {
+  display: flex;
+  flex-direction: row;
 }
